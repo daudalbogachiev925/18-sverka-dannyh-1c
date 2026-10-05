@@ -1,0 +1,7 @@
+match_rules:
+  - source: bank
+    key: [date, amount, counterparty]
+    tolerance: 0.01
+  - source: marketplace
+    key: [order_id]
+    tolerance: 0
